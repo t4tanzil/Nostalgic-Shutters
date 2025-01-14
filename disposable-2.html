@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head id="head">
+    <!-- Meta description for the product page -->
+    <meta name="description" content="this is product(disposable) page.">
+    <title>Kodak Disposable Camera</title>
+    <!-- jQuery library for handling DOM manipulation -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- External JavaScript file for custom scripts -->
+    <script src="./js/script.js"></script>
+</head>
+<body class="body_tag">
+
+    <!-- Header section, content is loaded dynamically -->
+    <header id="header"></header>
+
+    <main>
+        <div class="project-container">
+            <!-- Breadcrumb navigation for easy page navigation -->
+            <nav class="nav-breadcrumb">
+                <a href="index.html">Home</a> / <a href="prod-page.html"> Products</a> / <span>Product Page</span>
+            </nav>
+            
+            <div class="product-section">
+                <!-- Section for displaying the product image -->
+                <div class="product-image">
+                    <img src="./img/disposable-2.jpg" alt="Kodak Disposable Camera">
+                </div>
+                <!-- Section for displaying product details -->
+                <div class="product-info">
+                    <h1 class="product-title">Kodak Disposable Camera</h1>
+                    <!-- Product rating with star icons -->
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(104 Reviews)</span>
+                    </div>
+                    <!-- Product price -->
+                    <p class="product-price">$24.99</p>
+                    <!-- Short description of the product -->
+                    <p class="product-description">The Kodak Disposable Camera is a simple and reliable option for capturing moments without the need for a full camera setup. Preloaded with high-quality Kodak film, it’s perfect for casual photography.</p>
+                    <!-- Meta information like category and brand -->
+                    <div class="product-meta">
+                        <p><strong>Category:</strong> Cameras</p>
+                        <p><strong>Brand:</strong> Polaroid</p>
+                    </div>
+                    <!-- Film size options for the product -->
+                    <div class="film-size">
+                        <h3>Film Size:</h3>
+                        <div class="size-options">
+                            <span class="size-option">35mm</span>
+                            <span class="size-option">120mm</span>
+                            <span class="size-option">220mm</span>
+                        </div>
+                    </div>
+                    <!-- Quantity selector and action buttons -->
+                    <div class="product-actions">
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <input type="number" value="1" min="1">
+                            <button class="plus">+</button>
+                        </div>
+                        <!-- Buttons for adding to cart and wishlist -->
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-tabs">
+                <!-- Tabs for navigating between different sections of product information -->
+                <ul class="tab-nav">
+                    <li class="active" data-tab="description">Description</li>
+                    <li data-tab="specs">Specifications</li>
+                    <li data-tab="reviews">Reviews</li>
+                </ul>
+                <!-- Content of each tab -->
+                <div class="tab-content">
+                    <!-- Detailed description of the product -->
+                    <div class="tab-pane active" id="description">
+                        <h3>Description</h3>
+                        <p>The Kodak Disposable Camera offers the trusted quality of Kodak film in a convenient, single-use package. This camera is preloaded with 35mm film, making it ready to shoot right out of the box. It’s perfect for vacations, events, or any time you want to capture memories without worrying about camera settings. The built-in flash ensures great results in various lighting conditions, and the simple point-and-shoot operation makes it accessible to everyone, regardless of their photography experience.</p>
+                    </div>
+                    <!-- Technical specifications of the product -->
+                    <div class="tab-pane" id="specs">
+                        <h3>Technical Specifications</h3>
+                        <table>
+                            <tr>
+                                <th>Film Type</th>
+                                <td>35mm</td>
+                            </tr>
+                            <tr>
+                                <th>Lens</th>
+                                <td>Fixed focus</td>
+                            </tr>
+                            <tr>
+                                <th>Shutter System</th>
+                                <td>1/125 sec</td>
+                            </tr>
+                            <tr>
+                                <th>Flash</th>
+                                <td>Built-in flash</td>
+                            </tr>
+                            <tr>
+                                <th>Battery</th>
+                                <td>Included, single use</td>
+                            </tr>
+                            <tr>
+                                <th>Dimensions</th>
+                                <td>120 mm (L) x 65 mm (W) x 38 mm (H)</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Customer reviews section -->
+                    <div class="tab-pane" id="reviews">
+                        <h3>Customer Reviews</h3>
+                        <!-- Example of a single customer review -->
+                        <div class="review">
+                            <p class="reviewer">Jessica M.<span class="rating">★★★★★</span></p>
+                            <p>This camera is fantastic for what it is. The image quality is surprisingly good for a disposable, and the flash works well even in low light. It’s perfect for parties and travel.</p>
+                        </div>
+                        <div class="review">
+                            <p class="reviewer">Sam B. <span class="rating">★★★★☆</span></p>
+                            <p>A reliable disposable camera that gets the job done. The Kodak film gives the photos a nice quality, and it’s so easy to use. My only complaint is that it’s a bit more expensive than other disposables.</p>
+                        </div>
+                        <div class="review">
+                            <p class="reviewer">Ryan D.<span class="rating">★★★☆☆</span></p>
+                            <p>The Kodak Disposable Camera is okay, but it didn’t blow me away. The photos are decent, but I’ve seen better from other brands. It’s convenient, though, so I can’t complain too much.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Recommendations for other products -->
+            <div class="recommendations">
+                <div class="recommendation">
+                    <img src="./img/disposable-3.jpg" alt="Analog Disposable Camera">
+                    <a href="disposable-3.html"><h3>Analog Disposable Camera</h3></a>
+                    <p>The Analog Disposable Camera is a budget-friendly option for those who want to experience the fun of film photography. Simple, effective, and easy to use, it’s perfect for capturing everyday moments.</p>
+                    <p><strong>Price: $14.99</strong></p>
+                </div>
+                <div class="recommendation">
+                    <img src="./img/disposable-1.jpg" alt="Flashback Camera Single Use camera 35mm Camera+Film +Flash">
+                    <a href="disposable-1.html"><h3>Flashback Camera</h3></a>
+                    <p>Capture spontaneous moments with this disposable 35mm camera. Perfect for travel or events where you don’t want to risk your main camera.</p>
+                    <p><strong>Price: $19.99</strong></p>
+                </div>
+                <div class="recommendation">
+                    <img src="./img/film-2.jpg" alt="Superia X-TRA FujiFilm 400">
+                    <a href="film-2.html"><h3>Superia X-TRA FujiFilm 400</h3></a>
+                    <p>A vibrant color film that pairs well with disposable cameras. It’s ideal for capturing a wide range of scenes with excellent color reproduction.</p>
+                    <p><strong>Price: $9.99</strong></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Footer section, content is loaded dynamically -->
+    <footer class="footer-section"></footer>
+
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- This is the product page for the Flashback Camera. All other product pages are derived from this one. -->
+<html lang="en">
+<head id="head">
+    <!-- The head will load meta and CSS fonts from JavaScript -->
+    <meta name="description" content="This is the product page for the Flashback Camera, a disposable camera.">
+    <title>Flashback Camera</title>
+    <!-- Linking to the main stylesheet -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Including jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!-- Linking to the custom script file -->
+    <script src="./js/script.js"></script>
+</head>
+<body class="body_tag">
+    <!-- Importing the header from header.html through JavaScript -->
+    <header id="header"></header>
+    
+    <main>
+        <div class="project-container">
+            <!-- Breadcrumb navigation for user convenience -->
+            <nav class="nav-breadcrumb">
+                <a href="index.html">Home</a> / <a href="prod-page.html">Products</a> / <span>Product Page</span>
+            </nav>
+            
+            <div class="product-section">
+                <!-- Displaying the product image -->
+                <div class="product-image">
+                    <img src="./img/disposable-1.jpg" alt="Flashback Camera Single Use Camera">
+                </div>
+                <!-- Product information section -->
+                <div class="product-info">
+                    <!-- Product title -->
+                    <h1 class="product-title">Flashback Camera</h1>
+                    <!-- Star rating display -->
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(120 Reviews)</span>
+                    </div>
+                    <!-- Displaying the product price -->
+                    <p class="product-price">$19.99</p>
+                    <!-- Brief product description -->
+                    <p class="product-description">The Flashback Camera Single Use Camera is an all-in-one solution for capturing moments on the go. With built-in flash and preloaded film, it’s perfect for travelers and those looking to experience the charm of disposable cameras.</p>
+                    <!-- Meta information about the product -->
+                    <div class="product-meta">
+                        <p><strong>Category:</strong> Cameras</p>
+                        <p><strong>Brand:</strong> Polaroid</p>
+                    </div>
+                    <!-- Section for selecting the film size -->
+                    <div class="film-size">
+                        <h3>Film Size:</h3>
+                        <div class="size-options">
+                            <span class="size-option">35mm</span>
+                            <span class="size-option">120mm</span>
+                            <span class="size-option">220mm</span>
+                        </div>
+                    </div>
+                    <!-- Product action buttons including quantity, add to cart, and wishlist -->
+                    <div class="product-actions">
+                        <div class="quantity">
+                            <button class="minus">-</button>
+                            <input type="number" value="1" min="1">
+                            <button class="plus">+</button>
+                        </div>
+                        <button class="add-to-cart">Add to Cart</button>
+                        <button class="wishlist"><i class="far fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="product-tabs">
+                <!-- Tab navigation for product details -->
+                <ul class="tab-nav">
+                    <li class="active" data-tab="description">Description</li>
+                    <li data-tab="specs">Specifications</li>
+                    <li data-tab="reviews">Reviews</li>
+                </ul>
+                <!-- Content of the tabs -->
+                <div class="tab-content">
+                    <!-- Description tab content -->
+                    <div class="tab-pane active" id="description">
+                        <h3>Description</h3>
+                        <p>The Flashback Camera Single Use Camera is the ultimate convenience for film enthusiasts and casual photographers alike. Preloaded with 35mm film and equipped with a built-in flash, this disposable camera is ready to capture memories as soon as you open the package. It’s ideal for vacations, parties, and any situation where you want to take photos without the hassle of carrying a more expensive camera. The retro design adds a touch of nostalgia, while the simple point-and-shoot functionality ensures you’ll never miss a moment.</p>
+                    </div>
+                    <!-- Specifications tab content -->
+                    <div class="tab-pane" id="specs">
+                        <h3>Technical Specifications</h3>
+                        <table>
+                            <tr>
+                                <th>Film Type</th>
+                                <td>35mm</td>
+                            </tr>
+                            <tr>
+                                <th>Lens</th>
+                                <td>Fixed focus</td>
+                            </tr>
+                            <tr>
+                                <th>Shutter System</th>
+                                <td>1/125 sec</td>
+                            </tr>
+                            <tr>
+                                <th>Flash</th>
+                                <td>Built-in flash</td>
+                            </tr>
+                            <tr>
+                                <th>Battery</th>
+                                <td>Included, single use</td>
+                            </tr>
+                            <tr>
+                                <th>Dimensions</th>
+                                <td>115 mm (L) x 60 mm (W) x 35 mm (H)</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- Reviews tab content -->
+                    <div class="tab-pane" id="reviews">
+                        <h3>Customer Reviews</h3>
+                        <div class="review">
+                            <p class="reviewer">Alex J.<span class="rating">★★★★★</span></p>
+                            <p>This camera is so much fun! It’s perfect for events where you don’t want to risk damaging a more expensive camera. The photos have a great vintage feel, and the flash works surprisingly well.</p>
+                        </div>
+                        <div class="review">
+                            <p class="reviewer">Megan H. <span class="rating">★★★★☆</span></p>
+                            <p>I bought this camera for a road trip, and it was a hit! The pictures turned out great, and it was nice not having to worry about reloading film. My only wish is that the camera had a few more shots per roll.</p>
+                        </div>
+                        <div class="review">
+                            <p class="reviewer">Kyle R.<span class="rating">★★★☆☆</span></p>
+                            <p>A decent disposable camera, but nothing extraordinary. It does the job, but the image quality is just okay. It’s a good option for casual use, but don’t expect professional results.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Section for product recommendations -->
+            <div class="recommendations">
+                <!-- Recommendation 1 -->
+                <div class="recommendation">
+                    <img src="./img/disposable-2.jpg" alt="Kodak Disposable Camera">
+                    <a href="slr-2.html"><h3>Kodak Disposable Camera</h3></a>
+                    <p>A similar disposable option with Kodak’s trusted name in film. It offers a slightly larger film capacity and reliable performance for casual photography.</p>
+                    <p><strong>Price: $24.99</strong></p>
+                </div>
+                <!-- Recommendation 2 -->
+                <div class="recommendation">
+                    <img src="./img/disposable-3.jpg" alt="Analog Disposable Camera">
+                    <a href="disposable-3.html"><h3>Analog Disposable Camera</h3></a>
+                    <p>The Analog Disposable Camera is a budget-friendly option for those who want to experience the fun of film photography. Simple, effective, and easy to use, it’s perfect for capturing everyday moments.</p>
+                    <p><strong>Price: $14.99</strong></p>
+                </div>
+                <!-- Recommendation 3 -->
+                <div class="recommendation">
+                    <img src="./img/slr-3.jpg" alt="Pentax MI ASAHI OPT. CO., Japan 49mm">
+                    <a href="slr-3.html"><h3>Pentax MI ASAHI OPT. CO., Japan 49mm</h3></a>
+                    <p>Another classic SLR camera with a reputation for durability and image quality. It offers a different shooting experience with its own set of features and controls.</p>
+                    <p><strong>Price: $199.99</strong></p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- Importing the footer from footer.html through JavaScript -->
+    <footer class="footer-section"></footer>
+
+</body>
+</html>
